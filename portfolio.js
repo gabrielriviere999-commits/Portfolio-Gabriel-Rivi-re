@@ -310,14 +310,14 @@ window.popupMenuHTML =
     '</ul>' +
     'Outils' +
     '<ul>' +
-    '<li><a href="../outils/search.html">Rechercher</a></li>' +
-    '<li><a href="../outils/arbo.html">Arborescence</a></li>' +
-    '<li><a href="https://github.com/gabrielriviere999-commits/outils">Dépôt GitHub</a></li>' +
-    '<li><a href="https://codeload.github.com/gabrielriviere999-commits/outils/zip/refs/heads/main" download>Télécharger dépôt</a></li>' +
+    '<li><a href="../outils/search.html" style="color:#f44;">Rechercher</a></li>' +
+    '<li><a href="../outils/arbo.html" style="color:#f44;">Arborescence</a></li>' +
+    '<li><a href="https://github.com/gabrielriviere999-commits/outils" style="color:#f44;">Dépôt GitHub</a></li>' +
+    '<li><a href="https://codeload.github.com/gabrielriviere999-commits/outils/zip/refs/heads/main" style="color:#f44;" download>Télécharger dépôt</a></li>' +
     '</ul>' +
     'Interfaces WEB' +
     '<ul>' +
-    '<li><a href="../interfaces-web/arbo.html">Arborescence</a></li>' +
-    '<li><a href="https://github.com/gabrielriviere999-commits/interfaces-web">Dépôt GitHub</a></li>' +
-    '<li><a href="https://codeload.github.com/gabrielriviere999-commits/interfaces-web/zip/refs/heads/main" download>Télécharger dépôt</a></li>' +
+    '<li><a href="../interfaces-web/arbo.html" style="color:#9c0;">Arborescence</a></li>' +
+    '<li><a href="https://github.com/gabrielriviere999-commits/interfaces-web" style="color:#9c0;">Dépôt GitHub</a></li>' +
+    '<li><a href="https://codeload.github.com/gabrielriviere999-commits/interfaces-web/zip/refs/heads/main" style="color:#9c0;" download>Télécharger dépôt</a></li>' +
     '</ul>';
