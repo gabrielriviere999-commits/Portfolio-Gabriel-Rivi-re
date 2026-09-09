@@ -125,12 +125,12 @@ def generate_html(tree, nb_folders, nb_files):
 <title>Arborescence</title>
 <link rel="icon" href="favicon.png" type="image/png">
 <style>
-body{{background:black;color:#9c0;font-family:monospace;}}
+body{{background:black;color:#33b5e5;font-family:monospace;}}
 pre.tree{{padding:5px;}}
-.folder{{color:#0c0;}}
-.file{{color:#9c0;text-decoration:none;}}
+.folder{{color:#46f;}}
+.file{{color:#33b5e5;text-decoration:none;}}
 .file:hover{{text-decoration:underline;}}
-.ascii{{color:#9c0;}}
+.ascii{{color:#33b5e5;}}
 </style>
 </head>
 <body>
@@ -147,7 +147,7 @@ pre.tree{{padding:5px;}}
 # Couleurs par défaut : body,.file,.ascii:#0f0; .folder:#4af;
 
 def main():
-    root_name = "interfaces-web/"   # Nom de la racine
+    root_name = "portfolio/"   # Nom de la racine
 
     tree = build_tree(".")
     tree["name"] = root_name
