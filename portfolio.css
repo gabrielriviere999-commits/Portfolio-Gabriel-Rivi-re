@@ -18,7 +18,7 @@ a:hover{text-decoration:underline;}
 .a {
   color:#ccc;
   border:2px solid;
-  border-color:#ccc #404040 #404040 #ccc;
+  border-color:#ccc #444 #444 #ccc;
   padding:4px 8px;
   font-family:sans-serif;
   cursor:pointer;
@@ -27,7 +27,7 @@ a:hover{text-decoration:underline;}
 }
 .a:hover{filter:brightness(1.2);text-decoration:underline;}
 .a:active {
-  border-color:#404040 #ccc #ccc #404040;
+  border-color:#444 #ccc #ccc #444;
   filter:brightness(0.8);
 }
 fieldset{border:2px groove #888;width:fit-content;}
@@ -70,10 +70,10 @@ button {
   padding:4px 8px;
   cursor:pointer;
 }
-button:hover{background:#404040;}
+button:hover{background:#444;}
 button:active {
   border-color:#111 #888 #888 #111;
-  background:#101010;
+  background:#111;
 }
 /* --- Barre de navigation --- */
 .navbar {
@@ -111,12 +111,12 @@ button:active {
   text-decoration:none;
 }
 .tab-button:hover:not(.tab-button-active) {
-  background:#404040;
+  background:#444;
   text-decoration:underline;
 }
 .tab-button-active,.menu:active {
   border-color:#111 #888 #888 #111;
-  background:#101010!important;
+  background:#111!important;
   text-decoration:none!important;
 }
 .menu{width:36px;text-decoration:none!important}
@@ -218,7 +218,7 @@ select {
   border:2px solid;
   border-color:#111 #888 #888 #111;
 }
-select:hover{background:#404040;}
+select:hover{background:#444;}
 summary {
   cursor:pointer;
   border:2px solid;
@@ -227,7 +227,7 @@ summary {
   font-size:20px;
   font-weight:bold;
 }
-summary:hover{background:#404040;}
+summary:hover{background:#444;}
 /* --- Niveau 1 --- */
 details > summary,
 details > *:not(summary){margin-left:0;}
