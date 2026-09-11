@@ -47,7 +47,7 @@ hr{border:1px inset #888;}
     border-right:2px solid #111;
   }
   ::-webkit-scrollbar-thumb {
-    background:#202020;
+    background:#222;
     border-top:2px solid #888;
     border-left:2px solid #888;
     border-bottom:2px solid #111;
@@ -62,7 +62,7 @@ hr{border:1px inset #888;}
   }
 }
 button {
-  background:#202020;
+  background:#222;
   color:#ccc;
   border:2px solid;
   border-color:#888 #111 #111 #888;
@@ -77,7 +77,7 @@ button:active {
 }
 /* --- Barre de navigation --- */
 .navbar {
-  background:#202020;
+  background:#222;
   border:2px solid;
   border-color:#888 #111 #111 #888;
   opacity:0.8;
@@ -99,7 +99,7 @@ button:active {
 }
 .tab-button {
   font-size:14px;
-  background:#202020;
+  background:#222;
   color:#ccc;
   border:2px solid;
   border-color:#888 #111 #111 #888;
@@ -213,7 +213,7 @@ button:active {
 select {
   height:40px;
   line-height:40px;
-  background:#202020;
+  background:#222;
   color:#ccc;
   border:2px solid;
   border-color:#111 #888 #888 #111;
