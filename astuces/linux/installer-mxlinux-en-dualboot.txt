@@ -114,3 +114,8 @@ Appuie sur la touche de boot (F12, ESC, etc.)
 #### 7. Choisir le système à démarrer
 Tu peux démarrer manuellement l'un ou l'autre
 - Ou changer l'ordre de démarrage dans le BIOS
+
+Si Windows n'apparait pas dans le menu GRUB :
+sudo nano /etc/default/grub
+décommenter GRUB_DISABLE_OS_PROBER=false
+sudo update-grub
